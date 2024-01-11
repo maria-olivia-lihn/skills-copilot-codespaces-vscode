@@ -24,4 +24,5 @@ app.get('/comments/:id', function(req, res) {
 app.post('/comments', function(req, res) {
   // Note that we don't have to worry about JSON parsing: Express.js does that for us
   var comment = {
-    id: Date.now(),
+    id: Date.now()}
+});
